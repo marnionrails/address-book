@@ -30,8 +30,11 @@ Test 3: Test: "It will confirm that AddressBook.prototype.addContact adds a cont
 Test 4: Test: "It will confirm that addressBook.contacts returns contents of the addressBook."
         Expect(addressBook.Equal({Ada: Contact, Grace: Contact})
 
-Test 5: Test: "It will confirm that addressBook.contacts[first name] returns the contact info.
+Test 5: Test: "It will confirm that addressBook.contacts[firstName] returns the contact info.
         Expect(addressBook.contacts["Ada"].toEqual(Contact {firstName: "Ada", lastName: "Lovelace", phoneNumber: "503-555-0100"}))
+
+Test 6: Test: It will confirm that addressBook.contacts[firstName].phoneNumber returns the contact phone number.
+        Exepect(addressBook.contacts["Ada"].phonenumber).toEqual("503-555-0100"));
 
 
 
