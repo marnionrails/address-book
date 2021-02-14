@@ -19,7 +19,10 @@ This project builds an address book.
 
 Test 1: Describe: Contact(firstName, lastName, phoneNumber)
         Test: "It will confirm that contructor function of Contact works"
-        Expect: testContact.toEqual(Contact {firstName: "Ada", lastName: "Lovelace", phoneNumber: "503-555-1111"});
+        Expect(testContact.toEqual(Contact {firstName: "Ada", lastName: "Lovelace", phoneNumber: "503-555-1111"}));
+
+Test 2: Test: "It will confirm that the prototype method fullName works."
+        Expect(textContact.fullName().toEqual("Ada Lovelace"));
 
 
 

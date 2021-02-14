@@ -6,3 +6,8 @@ function Contact(firstName, lastName, phoneNumber) {
 
 
 let testContact = new Contact("Ada", "Lovelace", "503-555-1111");
+
+
+Contact.prototype.fullName = function() {
+  return this.firstName + " " + this.lastName;
+}
