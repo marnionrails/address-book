@@ -15,6 +15,15 @@
 
 This project builds an address book.
 
+## Tests
+
+Test 1: Describe: Contact(firstName, lastName, phoneNumber)
+        Test: "It will confirm that contructor function of Contact works"
+        Expect: testContact.toEqual(Contact {firstName: "Ada", lastName: "Lovelace", phoneNumber: "503-555-1111"});
+
+
+
+
 ## Setup/Installation Requirements
 
 * Clone repository: https://github.com/marnionrails/address-book
