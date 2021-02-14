@@ -24,6 +24,9 @@ Test 1: Describe: Contact(firstName, lastName, phoneNumber)
 Test 2: Test: "It will confirm that the prototype method fullName works."
         Expect(textContact.fullName().toEqual("Ada Lovelace"));
 
+Test 3: Test: "It will confirm that AddressBook.prototype.addContact adds a contact to the contacts object in AddressBook."
+        Expect(addressBook.contacts.toEqual(Contact {firstName: "Ada", lastName: "Lovelace", phoneNumber: "503-555-0100"})
+
 
 
 
